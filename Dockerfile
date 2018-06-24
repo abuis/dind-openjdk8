@@ -1,5 +1,5 @@
 # Pull base image.
-FROM docker/docker:dind
+FROM docker:dind
 
 
 
