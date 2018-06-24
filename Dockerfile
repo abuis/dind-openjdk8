@@ -3,10 +3,6 @@ FROM docker:dind
 
 
 
-# Install base utilities
-RUN apk add --no-cache openjdk
-
-
 # A few reasons for installing distribution-provided OpenJDK:
 #
 #  1. Oracle.  Licensing prevents us from redistributing the official JDK.
